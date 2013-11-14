@@ -1,0 +1,120 @@
+Iteration : 1
+The selected weak classifier : H(x) = x < 2.5
+The error of h(x) : 0.3
+The weight of h(x) : 0.42364892
+The probabilities normalization factor Zt : 0.9165152
+The probabilities after normalization :
+0.07142857 0.07142857 0.07142857 0.07142857 0.07142857 0.07142857 0.16666666 0.16666666 0.16666666 0.07142857 
+The boosted classifier :
+f(x) = 0.42364892 I( x < 2.5)
+The error of the boosted classifier: 0.3
+The bound on Et : 0.9165152
+------------------------------------------------------------
+Iteration : 2
+The selected weak classifier : H(x) = x < 8.5
+The error of h(x) : 0.2142857
+The weight of h(x) : 0.6496415
+The probabilities normalization factor Zt : 0.82065177
+The probabilities after normalization :
+0.045454543 0.045454543 0.045454543 0.16666667 0.16666667 0.16666667 0.1060606 0.1060606 0.1060606 0.045454543 
+The boosted classifier :
+f(x) = 0.42364892 I( x < 2.5) + 0.6496415 I( x < 8.5)
+The error of the boosted classifier: 0.3
+The bound on Et : 0.7521398
+------------------------------------------------------------
+Iteration : 3
+The selected weak classifier : H(x) = x > 5.5
+The error of h(x) : 0.18181817
+The weight of h(x) : 0.7520387
+The probabilities normalization factor Zt : 0.77138925
+The probabilities after normalization :
+0.125 0.125 0.125 0.10185185 0.10185185 0.10185185 0.06481481 0.06481481 0.06481481 0.125 
+The boosted classifier :
+f(x) = 0.42364892 I( x < 2.5) + 0.7520387 I( x > 5.5) + 0.6496415 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.58019257
+------------------------------------------------------------
+Iteration : 4
+The selected weak classifier : H(x) = x < 2.5
+The error of h(x) : 0.19444445
+The weight of h(x) : 0.7106928
+The probabilities normalization factor Zt : 0.7915448
+The probabilities after normalization :
+0.07758621 0.07758621 0.07758621 0.06321839 0.06321839 0.06321839 0.16666666 0.16666666 0.16666666 0.07758621 
+The boosted classifier :
+f(x) = 0.7106928 I( x < 2.5) + 0.7520387 I( x > 5.5) + 0.6496415 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.4592484
+------------------------------------------------------------
+Iteration : 5
+The selected weak classifier : H(x) = x < 8.5
+The error of h(x) : 0.18965518
+The weight of h(x) : 0.72612613
+The probabilities normalization factor Zt : 0.78405625
+The probabilities after normalization :
+0.047872353 0.047872353 0.047872353 0.16666669 0.16666669 0.16666669 0.10283689 0.10283689 0.10283689 0.047872353 
+The boosted classifier :
+f(x) = 0.7106928 I( x < 2.5) + 0.7520387 I( x > 5.5) + 0.72612613 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.36007658
+------------------------------------------------------------
+Iteration : 6
+The selected weak classifier : H(x) = x > 5.5
+The error of h(x) : 0.19148941
+The weight of h(x) : 0.72018063
+The probabilities normalization factor Zt : 0.78694665
+The probabilities after normalization :
+0.12499998 0.12499998 0.12499998 0.103070185 0.103070185 0.103070185 0.063596494 0.063596494 0.063596494 0.12499998 
+The boosted classifier :
+f(x) = 0.7106928 I( x < 2.5) + 0.72018063 I( x > 5.5) + 0.72612613 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.28336105
+------------------------------------------------------------
+Iteration : 7
+The selected weak classifier : H(x) = x < 2.5
+The error of h(x) : 0.19078949
+The weight of h(x) : 0.7224442
+The probabilities normalization factor Zt : 0.7858468
+The probabilities after normalization :
+0.07723577 0.07723577 0.07723577 0.063685656 0.063685656 0.063685656 0.16666667 0.16666667 0.16666667 0.07723577 
+The boosted classifier :
+f(x) = 0.7224442 I( x < 2.5) + 0.72018063 I( x > 5.5) + 0.72612613 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.22267838
+------------------------------------------------------------
+Iteration : 8
+The selected weak classifier : H(x) = x < 8.5
+The error of h(x) : 0.19105697
+The weight of h(x) : 0.7215785
+The probabilities normalization factor Zt : 0.78626764
+The probabilities after normalization :
+0.047738697 0.047738697 0.047738697 0.16666667 0.16666667 0.16666667 0.10301508 0.10301508 0.10301508 0.047738697 
+The boosted classifier :
+f(x) = 0.7224442 I( x < 2.5) + 0.72018063 I( x > 5.5) + 0.7215785 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.1750848
+------------------------------------------------------------
+Iteration : 9
+The selected weak classifier : H(x) = x > 5.5
+The error of h(x) : 0.19095479
+The weight of h(x) : 0.72190905
+The probabilities normalization factor Zt : 0.78610694
+The probabilities after normalization :
+0.12500001 0.12500001 0.12500001 0.10300209 0.10300209 0.10300209 0.06366461 0.06366461 0.06366461 0.12500001 
+The boosted classifier :
+f(x) = 0.7224442 I( x < 2.5) + 0.72190905 I( x > 5.5) + 0.7215785 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.13763538
+------------------------------------------------------------
+Iteration : 10
+The selected weak classifier : H(x) = x < 2.5
+The error of h(x) : 0.19099382
+The weight of h(x) : 0.72178274
+The probabilities normalization factor Zt : 0.7861684
+The probabilities after normalization :
+0.07725529 0.07725529 0.07725529 0.06365964 0.06365964 0.06365964 0.16666667 0.16666667 0.16666667 0.07725529 
+The boosted classifier :
+f(x) = 0.72178274 I( x < 2.5) + 0.72190905 I( x > 5.5) + 0.7215785 I( x < 8.5)
+The error of the boosted classifier: 0.0
+The bound on Et : 0.10820459
+------------------------------------------------------------

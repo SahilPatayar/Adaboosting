@@ -1,0 +1,121 @@
+
+Iteration : 1
+The selected weak classifier ht :  ( x < 2.5 )
+The G error value of h(x) : 0.34641016
+The Weight of c+ : 5.154493 c- : -0.14383687
+The probabilities normalization factor Zt : 0.6928203
+The probabilities after normalization (p) : 
+8.333196E-4 8.333196E-4 8.333196E-4 0.12500052 0.12500052 0.12500052 0.16666597 0.16666597 0.16666597 0.12500052 
+The values ft(x) for each one of the examples : 
+5.154493 5.154493 5.154493 -0.14383687 -0.14383687 -0.14383687 -0.14383687 -0.14383687 -0.14383687 -0.14383687 
+The error of the boosted classifier Et : 0.3
+The bound on Et : 0.6928203
+--------------------------------------------------------
+Iteration : 2
+The selected weak classifier ht :  ( x > 5.5 )
+The G error value of h(x) : 0.28061843
+The Weight of c+ : -2.5033453 c- : 0.693113
+The probabilities normalization factor Zt : 0.56123686
+The probabilities after normalization (p) : 
+0.018149072 0.018149072 0.018149072 0.018221185 0.018221185 0.018221185 0.14848602 0.14848602 0.14848602 0.44543138 
+The values ft(x) for each one of the examples : 
+-2.5033453 -2.5033453 -2.5033453 -2.5033453 -2.5033453 -2.5033453 0.693113 0.693113 0.693113 0.693113 
+The error of the boosted classifier Et : 0.4
+The bound on Et : 0.3888363
+--------------------------------------------------------
+Iteration : 3
+The selected weak classifier ht :  ( x < 8.5 )
+The G error value of h(x) : 0.16530758
+The Weight of c+ : 1.1065294 c- : -5.352118
+The probabilities normalization factor Zt : 0.33061516
+The probabilities after normalization (p) : 
+0.018153988 0.018153988 0.018153988 0.16665311 0.16665311 0.16665311 0.14852624 0.14852624 0.14852624 0.0063835564 
+The values ft(x) for each one of the examples : 
+1.1065294 1.1065294 1.1065294 1.1065294 1.1065294 1.1065294 1.1065294 1.1065294 1.1065294 -5.352118 
+The error of the boosted classifier Et : 0.3
+The bound on Et : 0.18555342
+--------------------------------------------------------
+Iteration : 4
+The selected weak classifier ht :  ( x > 5.5 )
+The G error value of h(x) : 0.2183441
+The Weight of c+ : -1.1084304 c- : 2.122053
+The probabilities normalization factor Zt : 0.43668824
+The probabilities after normalization (p) : 
+0.1259464 0.1259464 0.1259464 0.12596698 0.12596698 0.12596698 0.040741384 0.040741384 0.040741384 0.12203574 
+The values ft(x) for each one of the examples : 
+-1.1084304 -1.1084304 -1.1084304 -1.1084304 -1.1084304 -1.1084304 2.122053 2.122053 2.122053 2.122053 
+The error of the boosted classifier Et : 0.4
+The bound on Et : 0.14437576
+--------------------------------------------------------
+Iteration : 5
+The selected weak classifier ht :  ( x < 2.5 )
+The G error value of h(x) : 0.24719292
+The Weight of c+ : 5.2698326 c- : -0.7042815
+The probabilities normalization factor Zt : 0.49438584
+The probabilities after normalization (p) : 
+0.0013105709 0.0013105709 0.0013105709 0.12598683 0.12598683 0.12598683 0.16666152 0.16666152 0.16666152 0.122054964 
+The values ft(x) for each one of the examples : 
+5.2698326 5.2698326 5.2698326 -0.7042815 -0.7042815 -0.7042815 -0.7042815 -0.7042815 -0.7042815 -0.7042815 
+The error of the boosted classifier Et : 0.3
+The bound on Et : 0.21589248
+--------------------------------------------------------
+Iteration : 6
+The selected weak classifier ht :  ( x > 5.5 )
+The G error value of h(x) : 0.2855827
+The Weight of c+ : -2.2816005 c- : 0.7050219
+The probabilities normalization factor Zt : 0.5711654
+The probabilities after normalization (p) : 
+0.022469072 0.022469072 0.022469072 0.022525622 0.022525622 0.022525622 0.1441738 0.1441738 0.1441738 0.43249458 
+The values ft(x) for each one of the examples : 
+-2.2816005 -2.2816005 -2.2816005 -2.2816005 -2.2816005 -2.2816005 0.7050219 0.7050219 0.7050219 0.7050219 
+The error of the boosted classifier Et : 0.4
+The bound on Et : 0.28237608
+--------------------------------------------------------
+Iteration : 7
+The selected weak classifier ht :  ( x < 8.5 )
+The G error value of h(x) : 0.18380317
+The Weight of c+ : 1.0005358 c- : -5.3373814
+The probabilities normalization factor Zt : 0.36760634
+The probabilities after normalization (p) : 
+0.022473719 0.022473719 0.022473719 0.166656 0.166656 0.166656 0.14420362 0.14420362 0.14420362 0.0056572114 
+The values ft(x) for each one of the examples : 
+1.0005358 1.0005358 1.0005358 1.0005358 1.0005358 1.0005358 1.0005358 1.0005358 1.0005358 -5.3373814 
+The error of the boosted classifier Et : 0.3
+The bound on Et : 0.20996402
+--------------------------------------------------------
+Iteration : 8
+The selected weak classifier ht :  ( x > 5.5 )
+The G error value of h(x) : 0.23306943
+The Weight of c+ : -1.0017285 c- : 2.1675823
+The probabilities normalization factor Zt : 0.4661389
+The probabilities after normalization (p) : 
+0.13128188 0.13128188 0.13128188 0.1312987 0.1312987 0.1312987 0.035407215 0.035407215 0.035407215 0.10603667 
+The values ft(x) for each one of the examples : 
+-1.0017285 -1.0017285 -1.0017285 -1.0017285 -1.0017285 -1.0017285 2.1675823 2.1675823 2.1675823 2.1675823 
+The error of the boosted classifier Et : 0.4
+The bound on Et : 0.17135562
+--------------------------------------------------------
+Iteration : 9
+The selected weak classifier ht :  ( x < 2.5 )
+The G error value of h(x) : 0.23044236
+The Weight of c+ : 5.2905774 c- : -0.7744358
+The probabilities normalization factor Zt : 0.46088472
+The probabilities after normalization (p) : 
+0.0014353041 0.0014353041 0.0014353041 0.13132124 0.13132124 0.13132124 0.16666049 0.16666049 0.16666049 0.10605486 
+The values ft(x) for each one of the examples : 
+5.2905774 5.2905774 5.2905774 -0.7744358 -0.7744358 -0.7744358 -0.7744358 -0.7744358 -0.7744358 -0.7744358 
+The error of the boosted classifier Et : 0.3
+The bound on Et : 0.2148363
+--------------------------------------------------------
+Iteration : 10
+The selected weak classifier ht :  ( x > 5.5 )
+The G error value of h(x) : 0.27145964
+The Weight of c+ : -2.2569878 c- : 0.77527016
+The probabilities normalization factor Zt : 0.5429193
+The probabilities after normalization (p) : 
+0.02525841 0.02525841 0.02525841 0.025316423 0.025316423 0.025316423 0.14138451 0.14138451 0.14138451 0.42412207 
+The values ft(x) for each one of the examples : 
+-2.2569878 -2.2569878 -2.2569878 -2.2569878 -2.2569878 -2.2569878 0.77527016 0.77527016 0.77527016 0.77527016 
+The error of the boosted classifier Et : 0.4
+The bound on Et : 0.2502232
+--------------------------------------------------------
