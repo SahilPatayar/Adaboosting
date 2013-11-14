@@ -13,15 +13,17 @@ public class File_info
 	public float[] p;	
 	public HashMap<Integer,String> weakClassifier;
 	
-	
+	public String outPath;
 	/*
 	 * Constructor which is initializing and making a pool of classifiers
 	 * 
 	 * */
 	
 	
-	public File_info(String path)
+	public File_info(String path, String out)
 	{
+		outPath = out;
+		
 		try
 		{
 			BufferedReader reader = new BufferedReader(new FileReader(path));
@@ -119,37 +121,11 @@ public class File_info
                // System.out.println(weakClassifier.size());
                // System.out.println(weakClassifier.values());
             
-			
-			
-			
 		}
 		catch(Exception e)
 		{
 			System.out.println("Unable to read the file....");
 		}
 	}
-	
-	
-	
-	
-	
-	
-	/*
-	 * Main Method
-	 * 
-	 * */
-	
-	
-	public static void main(String[] args)
-	{
-		File_info a = new File_info("data1.txt");
-		BinaryIterations[] B = new BinaryIterations[a.T];
-		B[0] = new BinaryIterations(a);
-		for(int i = 1; i < B.length ; i++)
-		{
-			B[i] = new BinaryIterations(a, B[( i - 1)], (i + 1) );
-		}
 		
-	}
-	
 }

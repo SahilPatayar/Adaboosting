@@ -28,6 +28,7 @@ public class BinaryIterations
 	 * Constructor with one argument
 	 * 
 	 * */
+	
 	public BinaryIterations(File_info f)
 	{
 		float min = 1;
@@ -49,8 +50,7 @@ public class BinaryIterations
 			String[] temp = classifier.split(" ");
 			String sign = temp[0];
 			float threshhold = Float.valueOf(temp[1]);
-			//System.out.println(" Threshhold = " + threshhold + " sign : " + sign);
-			
+					
 			int value;
 			
 			if(sign.equals("<"))
@@ -85,9 +85,7 @@ public class BinaryIterations
 				min = error;
 				index = i;
 			}			
-		}
-		
-		//System.out.println("Min : " + min + " ind : " + index );	
+		}	
 		
 		e_t = min;
 		h_t = index;
@@ -119,11 +117,11 @@ public class BinaryIterations
 		
 		Error_t =  ((float) mistake) / f.n;
 		
-		System.out.println("Iteration : " + iteration);
+		//System.out.println("Iteration : " + iteration);
 		
-		System.out.println("e_t : " + e_t + "\nht : " + h_t + "\naplha : " + alpha_t + "\nq1 :" + q1 + "\nq2 : " + q2 + "\nZ t : " + z_t + "\nError et : " + Error_t);
+		//System.out.println("e_t : " + e_t + "\nht : " + h_t + "\naplha : " + alpha_t + "\nq1 :" + q1 + "\nq2 : " + q2 + "\nZ t : " + z_t + "\nError et : " + Error_t);
 		//System.out.println("Hyp : " + boostedClassifier.entrySet());
-		System.out.println("-------------------------------------------------------");
+		//System.out.println("-------------------------------------------------------");
 		
 		
 		//f.p = newProb;
@@ -131,7 +129,7 @@ public class BinaryIterations
 		//for(int i = 0; i < f.n; i++)
 			//System.out.println("p : " + f.p[i]);
 		 
-		writeToFile(f, "itr1.txt");
+		writeToFile(f, f.outPath);
 		
 	}
 	
@@ -220,13 +218,11 @@ public class BinaryIterations
 			boostedClassifier.put(f.weakClassifier.get(i).toString(), (float) ( prev.boostedClassifier.get( f.weakClassifier.get(i).toString() )) ) ;
 			
 			String classifier = f.weakClassifier.get(i).toString();
-			
-			//System.out.println("Class : " + classifier);
-			
+						
 			String[] temp = classifier.split(" ");
 			String sign = temp[0];
 			float threshhold = Float.valueOf(temp[1]);
-			//System.out.println(" Threshhold = " + threshhold + " sign : " + sign);
+			
 			
 			int value;
 			
@@ -311,13 +307,13 @@ public class BinaryIterations
 				}
 				Error_t =  ((float) mistake) / f.n;
 				//System.out.println("Mistake Here : " + Error_t);
-				System.out.println("Iteration : " + iteration);
-				System.out.println("e_t : " + e_t + "\nht : " + h_t + "\naplha : " + alpha_t + "\nq1 :" + q1 + "\nq2 : " + q2 + "\nZ t : " + z_t + "\nMistakes : " + Error_t);
-				//System.out.println("Hyp : " + boostedClassifier.entrySet());
-				System.out.println("-------------------------------------------------------");
+				//System.out.println("Iteration : " + iteration);
+				//System.out.println("e_t : " + e_t + "\nht : " + h_t + "\naplha : " + alpha_t + "\nq1 :" + q1 + "\nq2 : " + q2 + "\nZ t : " + z_t + "\nMistakes : " + Error_t);
+				
+				//System.out.println("-------------------------------------------------------");
 				
 				 
-				writeToFile(f, "itr1.txt");
+				writeToFile(f, f.outPath);
 		
 		
 	}
@@ -330,14 +326,11 @@ public class BinaryIterations
 			if( ( boostedClassifier.get(f.weakClassifier.get(i).toString()) ) != 0 )
 			{
 				String classifier = f.weakClassifier.get(i).toString();
-				
-				//System.out.println("Class : " + classifier);
-				
+								
 				String[] temp = classifier.split(" ");
 				String sign = temp[0];
 				float threshhold = Float.valueOf(temp[1]);
-				//System.out.println(" Threshhold = " + threshhold + " sign : " + sign);
-				
+								
 				float cofficient = ( boostedClassifier.get(f.weakClassifier.get(i).toString()) );
 				 
 				int classify;
@@ -364,9 +357,7 @@ public class BinaryIterations
 		 //System.out.println("Value here : " + value);	
 		}
 		return value;
-	}
-	
-	
+	}	
 	
 	/*
 	 * UpdateProbability for more iterations
@@ -380,13 +371,9 @@ public class BinaryIterations
 		
 		String classifier = f.weakClassifier.get(index).toString();
 		
-		//System.out.println("Class : " + classifier);
-		
 		String[] temp = classifier.split(" ");
 		String sign = temp[0];
 		float threshhold = Float.valueOf(temp[1]);
-		//System.out.println(" Threshhold = " + threshhold + " sign : " + sign);
-		
 		int value;
 		
 		if(sign.equals("<"))
@@ -443,8 +430,7 @@ public class BinaryIterations
 			else
 				flag = true;
 			
-			BufferedWriter writer = new BufferedWriter(new FileWriter(path, flag));	
-			
+			BufferedWriter writer = new BufferedWriter(new FileWriter(path, flag));				
 			
 			writer.write("Iteration : " + iteration);
 			writer.newLine();
