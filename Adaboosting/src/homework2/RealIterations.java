@@ -37,9 +37,9 @@ public class RealIterations
 		int index = 0;
 		float min = 1;
 		iteration++;
-		preNormProb = new float[f.T];
-		newProb = new float[f.T];
-		f_t = new float[f.T];
+		preNormProb = new float[f.n];
+		newProb = new float[f.n];
+		f_t = new float[f.n];
 		
 		//System.out.println("size " + f.weakClassifier.values());
 		
@@ -176,7 +176,7 @@ public class RealIterations
 		float threshhold = Float.valueOf(temp[1]);
 		
 		int value = 0;
-			
+		System.out.println("size of fn : " + f.n);	
 		if(sign.equals("<"))
 		{			
 			for(int j = 0; j < f.n ; j++)
@@ -282,9 +282,9 @@ public class RealIterations
 		iteration = itr;
 		int index = 0;
 		float min = 1;	
-		preNormProb = new float[f.T];
-		newProb = new float[f.T];
-		f_t = new float[f.T];
+		preNormProb = new float[f.n];
+		newProb = new float[f.n];
+		f_t = new float[f.n];
 					
 		for(int i = 0; i < f.weakClassifier.size(); i++)
 		{

@@ -14,7 +14,7 @@ public class Main
 		
 		// Binary Iterations with input file path n output file path
 		
-		File_info ob1 = new File_info("data1.txt" , "binary.txt" );
+		File_info ob1 = new File_info("adaboost-5.dat" , "adaboost-5-binary.txt" );
 		
 		BinaryIterations[] B = new BinaryIterations[ob1.T];
 		
@@ -27,7 +27,7 @@ public class Main
 		
 		// For Real Adaboosting with input file and output file name
 		
-		File_info ob2 = new File_info("realdata.txt" , "real.txt" );
+		File_info ob2 = new File_info("adaboost-5.dat" , "adaboost-5-real.txt" );
 		
 		RealIterations[] r = new RealIterations[ob2.T];
 		
